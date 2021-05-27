@@ -1,0 +1,285 @@
+body {
+ background-color: #dcd9ec;
+}
+
+.wrapper {
+ max-width: 1200px;
+ margin: 50px auto;
+ background-color: #FFFF;
+}
+
+.header {
+ position: relative;
+ max-width: 1200px;
+ background-color: #af7db6;
+}
+
+.header_container {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 90px;
+}
+
+.header_fixed {
+ position: fixed;
+ top: 0;
+ z-index: 10;
+ width: 100%;
+ transition: 0.3s top linear;
+}
+
+.header_logo img {
+ width: 70px;
+ border-radius: 50%;
+}
+
+.header_phone a {
+ font-family: ;
+ color: #2c232e;
+ font-size: 15px;
+ text-decoration: none;
+}
+
+.header_phone a:hover {
+ cursor: pointer;
+}
+.header_phone img{
+ width: 22px;
+ padding-right: 3px;
+}
+.header_menu {}
+
+.menu_items {
+ display: flex;
+ justify-content: space-between;
+}
+
+.menu_item {
+ margin: 0 5px;
+}
+
+.menu_item a {
+ font-family: ;
+ color: #2c232e;
+ font-size: 15px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 5px 10px;
+}
+
+.menu_item a:hover {
+ cursor: pointer;
+ color: #af7db6;
+ background-color: #2c232e;
+ border: 2px solid #2c232e;
+ border-radius: 10px;
+}
+
+.burger_menu {
+ display: none;
+}
+
+.burger_menu_header {}
+
+.burger_menu_items {
+ background-color: #af7db6;
+}
+.burger_menu_item{
+ margin:0 0 15px 30px;
+}
+.burger_menu_item a {
+ font-family: ;
+ color: #2c232e;
+ font-size: 15px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 5px 10px;
+
+}
+
+.burger_menu_item a:hover {
+ cursor: pointer;
+ color: #af7db6;
+ background-color: #2c232e;
+ border: 2px solid #2c232e;
+ border-radius: 10px;
+}
+
+.introduction {
+ display: flex;
+ margin: 50px;
+}
+
+.introduction_column {
+ flex: 0 0 50%;
+}
+
+.introduction_aboutme {}
+
+.introduction_myphoto {
+ text-align: center;
+}
+
+.introduction_myphoto img {
+ max-width: 250px;
+ justify-content: center;
+}
+
+.portfolio {}
+
+.portfolio_example_box {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.portfolio_example_box_mini {
+ position: relative;
+ max-width: 350px;
+ height: 400px;
+ margin: 50px 0;
+ box-shadow: 0 0 18.69px 2.31px  #af7db6;
+}
+
+.portfolio_example_box_mini img {
+ max-width: 100%;
+ max-height: 100%;
+
+}
+
+.portfolio_example_box_mini_text {
+ position: absolute;
+ max-width: 350px;
+ height: 400px;
+ bottom: 0;
+ right: 0;
+ display: none;
+ background-color: #FFFF;
+ background: 0.7;
+ border-radius: 10px;
+}
+
+.portfolio_example_box_mini:hover .portfolio_example_box_mini_text {
+ display: block;
+ box-shadow: 0 0 18.69px 2.31px  #af7db6;
+}
+
+.portfolio_example_box_mini_text p {
+ font-family: ;
+ color: #2c232e;
+ font-size: 18px;
+ line-height: 22px;
+ padding: 20px 15px;
+}
+
+.portfolio_example_box_mini_button {
+ text-align: center;
+}
+.portfolio_example_box_mini_button{
+ 
+}
+.portfolio_example_box_mini_button a {
+ display: inline-block;
+ font-family: ;
+ color: #2c232e;
+ font-size: 18px;
+ line-height: 22px;
+ padding: 20px 15px;
+ text-decoration: none;
+ text-transform: uppercase;
+ border: 2px #2c232e solid;
+ border-radius: 10px;
+ background-color: #af7db6;
+}
+.portfolio_example_box_mini_button a:hover{
+ color:#af7db6;
+ border: 2px #af7db6 solid;
+ border-radius: 10px;
+ background-color:  #2c232e;
+ box-shadow: 0 0 18.69px 2.31px #af7db6;
+}
+.contacts {
+ display: flex;
+ flex-direction: column;
+ align-items:center;
+ box-shadow: 0 0 18.69px 2.31px #af7db69b;
+}
+
+.contacts_conteiner h3{
+ font-family: ;
+ font-size: 30px;
+ text-align:center;
+ margin-bottom: 20px;
+}
+.contacs_items_column{
+}
+.contact_items_column li{
+line-height: 22px;
+list-style: none;
+margin-bottom: 10px;
+}
+.contacs_items_phone a{
+ font-family: ;
+ color: #2c232e;
+ font-size: 20px;
+ text-decoration: none;
+ 
+}
+.contacs_items_phone img{
+ width: 25px;
+ 
+}
+.contacs_items_gmail a{
+ font-family: ;
+ color: #2c232e;
+ font-size: 20px;
+ text-decoration: none;
+ line-height: 25px;
+}
+
+.contacs_items_gmail img{
+width: 22px;
+height: 22px;
+}
+.socials{
+display: flex;
+justify-content: space-between;
+}
+.socials li{
+ list-style: none;
+}
+.contacs_items_viber img{
+ width: 30px;
+}
+
+.contacs_items_telegram img{
+ width: 30px;
+}
+
+.contacs_items_linkedin img{
+ width: 30px;
+}
+
+.footer {
+ background-color: #af7db6;
+}
+
+.footer_container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 90px;
+}
+
+.footer_phone a{
+ font-family: ;
+ color: #2c232e;
+ font-size: 15px;
+ text-decoration: none;
+}
+.footer_phone img{
+ width: 22px;
+ padding-right: 5px;
+}
