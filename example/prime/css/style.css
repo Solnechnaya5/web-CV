@@ -1,0 +1,620 @@
+@import "fonts.scc";
+
+body {
+ width: 100%;
+ height: 100%;
+ font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+ max-width: 870px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+
+.header-top {
+ display: flex;
+ justify-content: space-between;
+ margin: 0 20px;
+}
+
+.header-top-lang {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ list-style: none;
+}
+
+.header-top-lang_item a {
+ display: block;
+ color: black;
+ font-family: 'BebasNeueRegular';
+ font-size: 14px;
+ font-weight: 500;
+ text-transform: uppercase;
+ padding: 4px;
+ margin-right: 10px;
+ text-decoration: none;
+}
+
+.header-top-lang_item a:hover {
+ color: white;
+ background-color: black;
+}
+
+.header-top_link {
+ display: block;
+ color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 15px;
+ font-weight: 400;
+ text-decoration: underline;
+ padding: 20px 4px 4px 4px;
+ text-transform: uppercase;
+}
+
+.header-bottom {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: -30px;
+ padding-bottom: 30px;
+}
+
+.header-bottom_column {
+ list-style: none;
+}
+
+.header-bottom_column:last-child {
+ margin-right: 20px;
+}
+
+.header-bottom_menu {
+ text-decoration: none;
+ list-style: none;
+}
+
+.header-bottom_menu_list_left {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.header-bottom_menu_link_left {
+ padding-right: 22.5px;
+}
+
+.header-bottom_menu_link_left a {
+ display: inline-block;
+ color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 13px;
+ font-weight: 400;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+.header-bottom_menu_list_right {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.header-bottom_menu_link_right {
+ padding-left: 22.5px;
+}
+
+.header-bottom_menu_link_right a {
+ display: inline-block;
+ color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 13px;
+ font-weight: 400;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+.header-logo {
+ display: block;
+ text-align: center;
+}
+
+.header-logo_text {
+ display: block;
+ color: black;
+ font-family: 'BebasNeueRegular';
+ font-size: 10px;
+ text-transform: uppercase;
+ letter-spacing: 8px;
+}
+
+.header-logo_img {
+ display: inline-block;
+ margin: 13px 0 22px 0;
+}
+
+/* *********burger menu******** */
+.burger__container {
+ display: none;
+ margin: 20px 20px 0px 20px;
+}
+
+.burger__header_link a {
+ color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 15px;
+ font-weight: 400;
+ text-decoration: underline;
+ padding: 20px 4px 4px 4px;
+ text-transform: uppercase;
+
+}
+
+.menu-burger__lang ul {
+ display: flex;
+}
+
+.menu-burger__lang li {
+ list-style: none;
+ margin-bottom: 20px;
+}
+
+.menu-burger__lang a {
+ color: black;
+ font-family: 'BebasNeueRegular';
+ font-size: 14px;
+ font-weight: 500;
+ text-transform: uppercase;
+ padding: 4px;
+ margin-right: 10px;
+ text-decoration: none;
+}
+
+.menu-burger__lang a:hover {
+ color: white;
+}
+
+/* ======= */
+.menu-burger__items li {
+ list-style: none;
+}
+
+.menu-burger__items a {
+ color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: uppercase;
+ padding: 4px 4px 4px 4px;
+}
+
+/* block_1 */
+.private {
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 75px;
+}
+
+.private_column {
+ flex: 0 0 50%;
+}
+
+.private_image {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100%;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+.private_image img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.private-body {
+ background-color: black;
+ padding: 75px 0 75px 60px;
+}
+
+.private-body_container {
+ max-width: 300px;
+}
+
+.private-body_title {
+ font-family: 'AkzidenzGroteskBQ-Bold';
+ font-size: 50px;
+ text-transform: uppercase;
+ color: white;
+ letter-spacing: 1.5px;
+ margin-bottom: 30px;
+}
+
+.private-body_text {
+ color: white;
+ font-size: 16px;
+ margin-bottom: 50px;
+ line-height: 25px;
+}
+
+.private-body-buttons {
+ display: flex;
+ align-items: center;
+}
+
+.private-body-buttons_item {}
+
+.btn {
+ display: block;
+ height: 50px;
+ line-height: 50px;
+ background-color: black;
+ color: white;
+ font-family: 'BebasNeueRegular';
+ font-size: 15px;
+ letter-spacing: 0.5px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 0 15px;
+}
+
+.btn_w {
+ color: black;
+ background-color: white;
+}
+
+/* _____________block_2____________________ */
+.catering_types {
+ display: flex;
+ margin-bottom: 75px;
+}
+
+.catering_types_column {
+ flex: 0 0 25%;
+}
+
+.catering_item_image {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ min-height: 225px;
+ overflow: hidden;
+ margin-bottom: 25px;
+}
+
+.catering_item_image img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.catering_item_title {
+ display: block;
+ color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 25px;
+ letter-spacing: 2.5px;
+ text-transform: uppercase;
+ margin-bottom: 30px;
+}
+
+.catering_item_text {
+ font-size: 15px;
+ line-height: 25px;
+ margin-bottom: 25px;
+}
+
+.catering_item_btn {
+ display: inline-block;
+ margin-bottom: 29px;
+}
+
+.catering_item_link {
+ display: block;
+ color: black;
+ font-family: 'BebasNeueRegular';
+ font-size: 15px;
+ text-transform: uppercase;
+ text-decoration: underline;
+}
+
+/* ________block_3_____________ */
+.why_choose {}
+
+.why_choose_body {
+ display: flex;
+}
+
+.why_choose_title {
+ flex: 0 0 50%;
+ background-color: black;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ padding: 50px 60px 50px 0;
+ text-align: right;
+}
+
+.why_choose_image {
+ flex: 0 0 50%;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ min-height: 100%;
+ overflow: hidden;
+}
+
+.why_choose_image img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+/* _______block_4____________ */
+
+.choice_reasons {
+ background-color: #EBEBEB;
+}
+
+.choice_reasons_row {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.choice_reason_item {
+ flex: 0 0 50%;
+ display: flex;
+ padding: 50px 15px 0 0;
+}
+
+.choice_reason_item_image {
+ flex: 0 0 50%;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ height: 100%;
+ max-height: 101px;
+ max-width: 101px;
+ overflow: hidden;
+}
+
+.choice_reason_item_image img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ margin-right: 10px;
+}
+
+.choice_reason_item_body {
+ flex: 1 1 50%;
+ padding-left: 15px;
+ display: flex;
+ flex-direction: column;
+}
+
+.choice_reason_item_body_title {
+ flex: 1 1 auto;
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 25px;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+
+}
+
+.choice_reason_item_body_text {
+ font-size: 15px;
+ line-height: 25px;
+}
+
+/* _______block_4____________ */
+.contacts {
+ padding-top: 80px;
+}
+
+.contacts_top {}
+
+.container {}
+
+.contacts_title {
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 50px;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ margin-bottom: 30px;
+}
+
+.contacts_body {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.contacts_body_column {
+ flex: 0 0 50%;
+ margin-bottom: 20px;
+}
+
+.contacts_body_item {
+ display: inline-block;
+ color: black;
+ font-size: 15px;
+ line-height: 25px;
+ padding-right: 35px;
+}
+
+.contacts_body_item--1 {
+ background: url(/img/block_5/1.png) left no-repeat;
+ background-size: 17px;
+ display: inline-block;
+ vertical-align: bottom;
+ padding-left: 25px;
+}
+
+.contacts_body_item--2 {
+ background: url(/img/block_5/2.png) left no-repeat;
+ background-size: 17px;
+ display: inline-block;
+ vertical-align: bottom;
+ padding-left: 25px;
+}
+
+.contacts_body_item--3 {
+ background: url(/img/block_5/3.png) left no-repeat;
+ background-size: 13px;
+ display: inline-block;
+ vertical-align: bottom;
+ padding-left: 25px;
+}
+
+.contacts_social {
+ display: flex;
+}
+
+.contacts_social_item {
+ padding-right: 20px;
+}
+
+.contacts_social_item:last-child {
+ padding-right: none;
+}
+
+.contacts_social_item--1 {}
+
+.contacts_social_item--2 {}
+
+.contacts_social_item--3 {}
+
+.contacts_social_item--4 {}
+
+.contacts_bottom {
+ display: flex;
+}
+
+.contacts_bottom_column {
+ flex: 0 0 50%;
+}
+
+.contacts_bottom_map {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ height: 100%;
+ overflow: hidden;
+}
+
+.contacts_bottom_map iframe {
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.contacts_bottom_form {
+ background-color: black;
+ padding: 50px 60px;
+}
+
+.contacts_bottom_title {
+ font-family: 'AkzidenzGroteskBQ-Reg';
+ font-size: 25px;
+ color: white;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ margin-bottom: 30px;
+}
+
+.contact_bottom_form_body {
+ max-width: 375px;
+}
+
+.contacts_bottom_line {
+ margin-bottom: 25px;
+
+}
+
+.input {
+ border-radius: 0;
+ width: 100%;
+ height: 50px;
+ display: block;
+ padding: 0 18px;
+ border: 2px solid #959595;
+ background-color: #252525;
+ color: #959595;
+
+ font-size: 15px;
+}
+
+.input:focus::placeholder {
+ opacity: 0;
+}
+
+.contacts_bottom_line textarea {
+ resize: none;
+ max-width: 375px;
+ height: 100px;
+ padding: 10px 18px;
+ border: 2px solid #959595;
+ background-color: #252525;
+ color: #959595;
+ font-size: 15px;
+}
+
+.contacts_bottom_line textarea:focus::placeholder {
+ opacity: 0;
+}
+
+.contacts_bottom_form_btn {}
+
+.btn {}
+
+.btn_w {}
+
+/* ___________подвал_________ */
+.footer_body {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 125px;
+}
+
+.footer_body_column {}
+
+.footer_body_text {
+ color: #4D4D4D;
+ font-size: 15px;
+ line-height: 25px;
+}
+
+.footer_body_text a {
+ color: #4D4D4D;
+ text-decoration: underline;
+}
+
+.footer_body_text a:hover {
+ text-decoration: none;
+}
+
+.footer_body_logo {}

@@ -1,0 +1,295 @@
+@media(min-width:1200px) {
+  .content_body_conteiner {
+    top: 450px;
+    left: 90px;
+  }
+}
+
+@media (max-width:1199px) {
+  .content_body_conteiner {
+    top: 450px;
+    left: 0px;
+  }
+}
+
+@media (max-width:897px) {
+  .header_menu_item a {
+    font-size: 14px;
+  }
+
+  .content_body_conteiner {
+    top: 450px;
+    left: -55px;
+  }
+
+  .content_body_article_title {
+    font-size: 22px;
+  }
+
+  .content_body_article_text {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 22px;
+  }
+
+  .recipes_column {
+    margin: 30px 15px 30px 15px;
+  }
+
+  .resipies_title {
+    font-size: 15px;
+  }
+
+  /* модальное окно */
+  .cake_recipe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 40px 30px 20px;
+  }
+
+  .cake_recipe_image {
+    margin: 20px 0 0 65px;
+  }
+
+  .cake_recipe_title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:776px) {
+  .header_logo {
+    margin: 70px 0;
+  }
+
+  .header_menu_items {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  .burger_menu_header {
+    position: relative;
+    width: 35px;
+    height: 24px;
+    display: block;
+
+  }
+
+  .burger_menu_header span {
+    height: 2px;
+    top: 11px;
+    width: 100%;
+    position: absolute;
+    background: #212121;
+    margin: 0 auto;
+
+  }
+
+  .burger_menu_header:before {
+    content: '';
+    top: 4px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: #212121;
+    margin: 0 auto;
+  }
+
+  .burger_menu_header:after {
+    content: '';
+    bottom: 4px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: #212121;
+    margin: 0 auto;
+  }
+
+  .burger_menu_items {
+    position: absolute;
+    z-index: 10;
+    top: 350px;
+    right: -100%;
+    width: 50%;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 8px;
+    background-color: #F8F8F8;
+    transition: all 0.4s ease;
+  }
+
+  .burger_menu_items.open-menu {
+    right: 0;
+  }
+
+  .burger_menu_header.open-menu span {
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .burger_menu_header.open-menu:before {
+    transform: rotate(40deg);
+    top: 11px;
+    transition: 0.4s;
+  }
+
+  .burger_menu_header.open-menu:after {
+    transform: rotate(-40deg);
+    bottom: 11px;
+    transition: 0.4s;
+  }
+
+  body.fixed-page {
+    overflow: hidden;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    margin-bottom: 50px;
+  }
+
+  .content_body_conteiner {
+    position: inherit;
+    top: 0;
+  }
+
+  .content_body_article_logo {
+    display: none;
+  }
+
+  .recipes {
+    margin-bottom: 50px;
+  }
+
+  .recipes_image img {
+    max-width: 215px;
+    height: 180px;
+    padding-bottom: 5px;
+  }
+
+  .footer_menu_item {
+    margin-right: 10px;
+  }
+
+  .footer_menu_item a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:576px) {
+  .recipes {
+    flex-direction: column;
+  }
+
+  .recipes_column {
+    margin: 30px auto;
+  }
+
+  .recipes_image img {
+    max-width: 100%;
+    height: 180px;
+    padding-bottom: 5px;
+  }
+
+  .cake_recipe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .cake_recipe_image {
+    max-width: 520px;
+    max-height: 520px;
+    margin: 20px auto;
+  }
+
+
+  .cake_recipe_title {
+    font-size: 15px;
+  }
+
+  .footer_top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_top_logo {
+    margin-bottom: 20px;
+  }
+
+  .footer_menu {
+    margin-bottom: 20px;
+  }
+
+  .footer_bottom {
+    text-align: center;
+    padding-right: 0;
+  }
+}
+
+@media (max-width:480px) {
+  .cake_recipe_image {
+    max-width: 460px;
+    max-height: 460px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width:320px) {
+  .header_menu_logo {
+    display: none;
+  }
+
+  .burger__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .burger__header_image {
+    width: 90px;
+    padding-top: 10px;
+  }
+
+  .burger__header_link a {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+
+  .menu-burger.open-menu {
+    top: 115px;
+  }
+
+  .input {
+    height: 40px;
+    padding: 0 15px;
+    font-size: 13px;
+  }
+
+  .contacts_bottom_line textarea {
+    max-width: 200px;
+    height: 90px;
+    padding: 10px 15px;
+    border: 2px solid #959595;
+    font-size: 13px;
+  }
+
+  .content_body_article {
+    margin-left: 15px;
+  }
+
+  .cake_recipe_image {
+    display: none;
+  }
+
+  .footer_menu {
+    display: none;
+  }
+}

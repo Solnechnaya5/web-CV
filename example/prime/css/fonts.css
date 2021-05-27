@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'fontdac699b554de5b30f7764b27556f9e9e';
+        
+        src:    url('https://nomail.com.ua/files/eot/dac699b554de5b30f7764b27556f9e9e.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/dac699b554de5b30f7764b27556f9e9e.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/dac699b554de5b30f7764b27556f9e9e.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'AkzidenzGroteskBQ-Reg';  src: local('AkzidenzGroteskBQ-Reg'), url('https://nomail.com.ua/files/woff/dac699b554de5b30f7764b27556f9e9e.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'font4588c9fe068e298cea41128b41bf398d';
+            
+            src:    url('https://nomail.com.ua/files/eot/4588c9fe068e298cea41128b41bf398d.eot?#iefix') format('embedded-opentype'),
+                    url('https://nomail.com.ua/files/woff/4588c9fe068e298cea41128b41bf398d.woff') format('woff'),
+                    url('https://nomail.com.ua/files/woff2/4588c9fe068e298cea41128b41bf398d.woff2') format('woff2');
+        }
+        
+        @font-face { font-family: 'BebasNeueRegular';  src: local('BebasNeueRegular'), url('https://nomail.com.ua/files/woff/4588c9fe068e298cea41128b41bf398d.woff') format('woff'); }

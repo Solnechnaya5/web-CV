@@ -1,0 +1,244 @@
+@import url(./fonts.css);
+
+.wrapper {
+ max-width: 1300px;
+ margin: 0 auto;
+}
+
+.header {
+ position: relative;
+ max-width: 1300px;
+}
+
+.header_container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 70px;
+ background-color: black;
+}
+
+.header_fixed {
+ position: fixed;
+ top: 0;
+ z-index: 10;
+ width: 100%;
+ transition: 0.3s top linear;
+}
+
+.header_logo {}
+
+.header_logo img {}
+
+.header_menu {}
+
+.menu_items {
+ display: flex;
+ align-items: center;
+ margin-right: 30px;
+}
+
+.menu_item {
+ margin-right: 10px;
+ font-family: 'Merriweather-Regular';
+ font-size: 15px;
+ text-transform: uppercase;
+}
+
+.menu_item a {
+ display: block;
+ color: white;
+ text-decoration: none;
+ padding: 3px;
+}
+
+.menu_item a:hover {
+ color: black;
+ background-color: gray;
+}
+
+.burger_menu {
+ display: none;
+}
+
+.burger_menu_header {}
+
+.burger_menu_items {
+ background-color: black;
+ padding: 20px 30px;
+}
+
+.burger_menu_item {
+ margin-right: 10px;
+ font-family: 'Merriweather-Regular';
+ font-size: 15px;
+ text-transform: uppercase;
+ background-color: black;
+}
+
+.burger_menu_item a {
+ display: block;
+ color: white;
+ text-decoration: none;
+ padding: 3px;
+}
+
+
+/* ____________галерея____________ */
+
+.website-slider {
+ height: 100%;
+ /* padding: 50px 0 70px 0; */
+}
+
+.website-slider__wrapper {}
+
+.website-slider__slide {}
+
+.website-slider__image {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.website-slider .swiper-slide {
+ width: auto;
+}
+
+/* стрелки прокрутки */
+
+.website-slider .swiper-button-next::after,
+.website-slider .swiper-button-prev::after {
+ color: gray;
+ font-size: 70px;
+ opacity: 0.7;
+}
+
+
+/* точечки снизу */
+
+.website-slider .swiper-pagination {
+ bottom: 0;
+}
+
+.website-slider .swiper-pagination-bullet {
+ width: 15px;
+ height: 15px;
+ line-height: 15px;
+ font-size: 10px;
+ background-color: white;
+ border: 2px black solid;
+}
+
+
+/* первый слайд-обложка  */
+
+.cover {
+ max-width: 1300px;
+}
+
+.cover_image {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ max-width: 100%;
+ height: 700px;
+ position: relative;
+ z-index: 2;
+ overflow: hidden;
+}
+
+.cover_image img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.cover_title {
+ position: absolute;
+ bottom: 50px;
+ left: 500px;
+ z-index: 10;
+ text-align: center;
+ border: 2px white solid;
+ border-radius: 20px;
+
+}
+
+.cover_title h1 {
+ position: relative;
+ z-index:20;
+
+ color: white;
+ font-size: 50px;
+}
+
+.cover_title h3 {
+ color: white;
+}
+ /* второй слайд о фотографе */
+.about_photographer {
+ display: flex;
+ max-width: 1300px;
+ background-color: black;
+
+}
+
+.about_photographer_column {
+ flex: 0 0 50%;
+}
+
+.about_photographer_photo img {
+ max-width: 500px;
+}
+
+.about_photographer_information {
+ color: white;
+ margin: 30px;
+}
+
+.about_photographer_information h2 {
+ font-size: 30px;
+}
+
+.about_photographer_information p {
+ font-size: 15px;
+ text-align: left;
+}
+/* подвал */
+.footer {
+ max-width: 1300px;
+}
+.footer_container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 70px;
+ color:white;
+ background-color: black;
+}
+.footer_logo {
+}
+.footer_phone a{
+ color:white;
+ text-decoration: none;
+}
+.footer_phone img{
+ width: 30px;
+ height: 30px;
+}
+.footer_socials {
+ display: flex;
+ justify-content: space-between;
+}
+.footer_socials_item img{
+ width: 30px;
+ height: 30px;
+}
+.footer_socials_item a{
+ color:white;
+ text-decoration: none;
+}

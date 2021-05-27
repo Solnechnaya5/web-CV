@@ -1,0 +1,116 @@
+.wrapper_2 {
+ max-width: 1300px;
+ margin: 0 auto;
+ background-color: #f7ebda;
+}
+
+.recommendation_pm {
+ background-color: #f7ebda;
+}
+
+h2 {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 20px;
+ text-align: left;
+ text-align: center;
+}
+
+h3 {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 17px;
+ text-align: left;
+}
+
+p {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-align: left;
+}
+
+li {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-align: left;
+ text-decoration: none;
+ line-height: 25px;
+ list-style: circle;
+}
+
+.recommendation_pm {
+ margin: 20px 30px;
+}
+
+.recommendations_brows {
+ display: flex;
+ margin: 30px;
+}
+
+.recommendations_brows_column {
+ flex: 0 0 50%;
+}
+
+.master_photo {
+ text-align: right;
+}
+
+.master_photo img {
+ max-width: 400px;
+ margin: 20px;
+}
+
+.recommendations_brows h2,
+h3 {}
+
+.recommendations_brows h3 {}
+
+.recommendations_brows_list li {}
+
+.recommendations_brows_list_item {}
+
+.recommendations_brows_list2 li {}
+
+.recommendations_brows_list2_item {}
+
+.recommendations_lips {
+ display: flex;
+ margin: 15px 30px 30px 30px;
+}
+
+.recommendations_lips_image {
+ text-align: left;
+ margin-right: 25px;
+}
+
+.recommendations_lips_image img {
+ max-width: 300px;
+}
+
+.recommendations_lips h2 {}
+
+.recommendations_lips_list {}
+
+.recommendations_lips_list_item {}
+
+.recommendations_eyelids {}
+
+.recommendations_eyelids_list {}
+
+.recommendations_eyelids_list_item {}
+
+.recommendations_eyelashes {
+ display: flex;
+}
+
+.recommendations_eyelashes_column {}
+
+.recommendations_eyelashes_image img {
+ max-width: 300px;
+}
+
+.recommendations_eyelashes_list {}
+
+.recommendations_eyelashes_list_item {}

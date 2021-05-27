@@ -1,0 +1,410 @@
+@import url(./fonts.css);
+
+body {
+ background-color: #EAEAEA;
+}
+
+.wraper {
+ max-width: 1121px;
+ margin: 0 auto;
+}
+
+.header_logo {
+ text-align: center;
+ margin: 118px 0 118px 0;
+}
+
+.header-menu {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ min-height: 124px;
+ background-color: #F8F8F8;
+ box-shadow: 0 0 18.69px 2.31px rgba(204, 204, 223, 0.7);
+ margin-bottom: 40px;
+
+}
+
+.header_menu_logo {}
+
+.header_menu_logo img {
+ max-width: 87px;
+ max-height: 36px;
+}
+
+.header_menu_items {
+ display: flex;
+}
+
+.header_menu_item a {
+ color: #212121;
+ font-size: 16px;
+ font-family: 'Josefin Sans', sans-serif;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 0 8px;
+}
+
+.header_menu_search {
+ display: flex;
+ max-width: 163px;
+ height: 29px;
+ margin-right: 20px;
+}
+
+.menu_search_container {
+ display: flex;
+ border: 1px solid #C2C2C2;
+}
+
+.header_menu_search_btn {
+ display: block;
+ position: relative;
+ top: 0;
+ right: 0;
+ padding: 4px 10px 0 25px;
+ background: #F8F8F8;
+ cursor: pointer;
+}
+
+.header_menu_search_btn img {
+ width: 12px;
+ height: 12px;
+}
+
+.header_menu_search_text {
+ font-family: 'Josefin Sans', sans-serif;
+ color: #212121;
+ font-size: 12px;
+ border: none;
+ box-sizing: none;
+ text-transform: uppercase;
+ background-color: #F8F8F8;
+}
+
+.header_menu_search_text:hover {
+ border: #212121;
+}
+
+.burger_menu {
+ display: none;
+ background-color: #F8F8F8;
+}
+
+.burger_menu_container {}
+
+.burger_menu_items {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.burger_menu_item a {
+ color: #212121;
+ font-size: 16px;
+ font-family: 'Josefin Sans', sans-serif;
+ text-decoration: none;
+
+ margin-bottom: 20px;
+ text-transform: uppercase;
+}
+
+/* ______________block_1_______________ */
+.content {
+ margin-bottom: 84px;
+ box-shadow: 0 0 18.69px 2.31px rgba(204, 204, 223, 0.7);
+ background-color: #F8F8F8;
+}
+
+.content_body_column {}
+
+.content_body_image {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ max-width: 100%;
+ height: 440px;
+ position: relative;
+ z-index: 2;
+ overflow: hidden;
+}
+
+.content_body_image img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.content_body_conteiner {
+ position: absolute;
+ /* top: 350px;
+left: 20px; */
+ z-index: 3;
+}
+
+.content_body_article {
+ display: flex;
+ flex-direction: column;
+ margin: 50px 0 50px 91px;
+}
+
+.content_body_article_logo img {
+ display: block;
+ margin-top: 50px;
+ max-width: 252px;
+ max-height: 105px;
+}
+
+.content_body_article_title {
+ color: #921026;
+ font-family: 'PlayfairDisplay-Regular';
+ font-size: 24px;
+}
+
+.content_body_article_text {
+ max-width: 312px;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #212121;
+ font-size: 16px;
+ line-height: 20px;
+ margin-bottom: 26px;
+}
+
+.content_body_button a {
+ color: #212121;
+ text-decoration: none;
+}
+
+.btn {
+ width: 106px;
+ height: 29px;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #212121;
+ font-size: 12px;
+ text-align: center;
+ line-height: 27px;
+}
+
+/* _______________block_2_____________*/
+.recipes {
+ display: flex;
+ justify-content: center;
+ background-color: #F8F8F8;
+ box-shadow: 0 0 18.69px 2.31px rgba(204, 204, 223, 0.7);
+ margin-bottom: 84px;
+}
+
+.recipes_column {
+ max-width: 315px;
+ margin: 40px 20px 40px 20px;
+}
+
+
+.recipes_image img {
+ max-width: 315px;
+ height: 210px;
+ padding-bottom: 5px;
+}
+
+.resipies_title {
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 18px;
+}
+
+.resipies_note {
+ display: flex;
+}
+
+.recipes_time_image img {
+ padding-right: 4px;
+}
+
+.resipies_time {
+ padding-right: 4px;
+}
+
+.resipies_comment_image img {
+ width: 13px;
+ height: 11px;
+ padding-right: 4px;
+}
+
+.recipes_comment_value {
+ padding-right: 4px;
+}
+
+.recipies_comment_views_image img {
+ padding-right: 4px;
+}
+
+.recipies_comment_viws_value {}
+
+/*________ модальное окно______________ */
+.cake_recipe {
+ display: flex;
+}
+
+.cake_recipe_column {
+ flex: 0 0 50%;
+}
+
+.cake_recipe_image {
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.cake_recipe_container {
+ max-width: 495px;
+ margin: 20px 38px 38px 36px;
+
+}
+
+.cake_recipe_title {
+ color: #055555;
+ font-family: 'PlayfairDisplay-Regular';
+ font-size: 18px;
+}
+
+.cake_recipe_row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 30px;
+}
+
+.cake_recipe_row_icons {
+ display: flex;
+ height: 15px;
+}
+
+.cake_recipe_time_image {
+ width: 14px;
+ height: 15px;
+ padding-right: 4px;
+}
+
+.cake_recipe_time_text {
+ color: #555555;
+ font-family: 'Open Sans', sans-serif;
+ ;
+ font-size: 16px;
+ padding-right: 6px;
+}
+
+.cake_recipe_level_image img {
+ width: 27px;
+ height: 25px;
+ padding-right: 6px;
+ margin-top: -8px;
+}
+
+.cake_recipe_level_tcake_recipe_level_text {
+ color: #555555;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+}
+
+.cake_recipe_button {}
+
+.btn {}
+
+
+.cake_recipe_ingredients {
+ font-family: 'Josefin Sans', sans-serif;
+ color: black;
+ font-size: 16px;
+ line-height: 18px;
+}
+
+
+.cake_recipe_directions h2 {
+ font-family: 'Josefin Sans', sans-serif;
+ color: black;
+ line-height: 18px;
+ margin-bottom: 20px;
+}
+
+.cake_recipe_directions p {
+ font-family: 'Josefin Sans', sans-serif;
+ color: black;
+ font-size: 16px;
+ line-height: 18px;
+ margin-bottom: 20px;
+}
+
+/* ______________подвал______________ */
+.footer {
+
+ background-color: #2F2F2F;
+ box-shadow: 0 0 20.69px 4.31px rgba(204, 204, 223, 0.7);
+}
+
+.footer_top {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding-top: 85px;
+}
+
+.footer_top_logo img {
+ width: 87px;
+ height: 36px;
+}
+
+.footer_menu {
+ display: flex;
+
+}
+
+.footer_menu_item {
+ margin-right: 15px;
+}
+
+.footer_menu_item a {
+ font-family: 'Josefin Sans', sans-serif;
+ color: #FEFEFE;
+ font-size: 12px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+.footer_rights {
+ font-family: 'Josefin Sans', sans-serif;
+ color: #FEFEFE;
+ font-size: 12px;
+ text-transform: uppercase;
+}
+
+.footer_bottom {
+ text-align: right;
+ padding: 15px 60px 55px 0;
+}
+
+.footer_bottom_social_icons {}
+
+.google_plus {
+ width: 22px;
+ height: 22px;
+
+}
+
+.twitter {
+ width: 15px;
+ height: 15px;
+}
+
+.facebook {
+ width: 15px;
+ height: 15px;
+}
+
+.pinterest {
+ width: 15px;
+ height: 15px;
+}

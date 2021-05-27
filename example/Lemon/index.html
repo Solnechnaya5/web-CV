@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="disabled-adaptations" content="watch">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/modal.min.css">
+  <link rel="stylesheet" href="css/media.css" />
+  <title>Lemon</title>
+</head>
+
+<body>
+  <div class="wraper">
+    <!-- _______шапка_______ -->
+    <div class="header_logo"><img src="./img/Logo@1X.png" alt="logo"></div>
+
+    <header class="header-menu">
+      <div class="header_menu_logo"><img src="./img/Logo@1X.png" alt=""></div>
+      <div class="header_menu_items">
+        <div class="header_menu_item"><a href="">HOME</a></div>
+        <div class="header_menu_item"><a href="">Recipes</a></div>
+        <div class="header_menu_item"><a href="">Photo Galleries</a></div>
+        <div class="header_menu_item"><a href="">Videos</a></div>
+        <div class="header_menu_item"><a href="">All Categories</a></div>
+      </div>
+      <form class="header_menu_search">
+        <div class="menu_search_container">
+          <a class="header_menu_search_btn"><img src="./img/block_1/icon 1.svg" alt=""> </a>
+          <input class="header_menu_search_text" type="text" placeholder="Find a recipe">
+        </div>
+      </form>
+      <!-- ________burger menu_____ -->
+      <div class="burger_menu">
+        <div class="burger_menu_header">
+          <span></span>
+        </div>
+        <!-- <div class="burger_menu_container"> -->
+        <nav class="burger_menu_items">
+          <div class="burger_menu_item"><a href="#">HOME</a></div>
+          <div class="burger_menu_item"><a href="#recipes">Recipes</a></div>
+          <div class="burger_menu_item"><a href="#">Photo Galleries</a></div>
+          <div class="burger_menu_item"><a href="#">Videos</a></div>
+          <div class="burger_menu_item"><a href="#">All Categories</a></div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- block_1 -->
+    <div class="content">
+      <div class="content_body_column">
+        <div class="content_body_image">
+          <img src="./img/block_1/1.webp" alt="">
+        </div>
+      </div>
+      <div class="content_body_column">
+        <div class="content_body_conteiner">
+          <article class="content_body_article">
+            <div class="content_body_article_logo"><img src="./img/Logo@1X.png" alt=""></div>
+            <h1 class="content_body_article_title">Bananas Foster Ice Cream Cake</h1>
+            <div class="content_body_article_text">If you're looking for decadence, look no further — you've found the
+              Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served
+              on
+              top of ice cream cake.</div>
+            <div class="content_body_button btn">
+              <a href="#" data-hystmodal="#myModal">GET IT RECIPE</a>
+            </div>
+        </article>
+      </div>
+    </div>
+    <!-- модальное окно с рецептом с блока content -->
+    <div class="hystmodal" id="myModal" aria-hidden="true">
+      <div class="hystmodal__wrap">
+        <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">Закрыть</button>
+          <!-- Ваш HTML код модального окна -->
+          <div class="cake_recipe">
+            <div class="cake_recipe_column">
+              <div class="cake_recipe_image"><img src="./img/modal/modal.jpeg" alt="">
+              </div>
+            </div>
+            <div class="cake_recipe_column">
+              <div class="cake_recipe_container">
+                <div class="cake_recipe_title">
+                  <h1>Bananas Foster Ice Cream Cake</h1>
+                </div>
+                <div class="cake_recipe_row">
+                  <div class="cake_recipe_row_icons">
+                    <div class="cake_recipe_time_image"><img src="./img/modal/Clock Icon@1X.png" alt=""></div>
+                    <div class="cake_recipe_time_text">15mins</div>
+                    <div class="cake_recipe_level_image"><img src="./img/modal/level.png" alt=""></div>
+                    <div class="cake_recipe_level_tcake_recipe_level_text">Easy</div>
+                  </div>
+                  <div class="cake_recipe_button btn">SAVE RECIPE<a href="#"></a></div>
+                </div>
+                <div class="cake_recipe_ingredients">1 (8 ounce) container frozen whipped topping, thawed</div>
+                <div class="cake_recipe_ingredients">20 chocolate round wafers, divided</div>
+                <div class="cake_recipe_ingredients">1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable
+                  Topping, divided</div>
+                <div class="cake_recipe_directions">
+                  <h2>Directions</h2>
+                  <p> ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an even layer. Spread
+                    with
+                    half of whipped topping. Break or crush chocolate wafers and sprinkle over the whipped cream.
+                    Microwave
+                    1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30 seconds. Drizzle evenly
+                    over
+                    wafers.</p>
+                  <p>TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with remaining whipped
+                    topping. Freeze 3 hours or overnight. Remove from freezer 10 minutes before serving. Cut into
+                    squares.
+                    HEAT remaining topping. Drizzle each serving with topping. Sprinkle with decorator sprinkles.
+                    Nutritional information (amount per servings): Total Calories: 640. Sodium 440mg. Fat: 32g.
+                    Carbohydrates: 82g. Cholesterol: 40mg. Protein: 11g. Fiber: 1g.վ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- block_2 -->
+    <div class="recipes">
+      <div class="recipes_column ">
+        <div class="recipes_image"><img src="./img/block_2/1.jpeg" alt=""></div>
+        <div class="resipies_title">Raspberry & Cream Frozen Yogurt Pie</div>
+        <div class="resipies_note">
+          <div class="recipes_time_image"><img src="./img/block_2/Clock Icon@1X.png" alt=""></div>
+          <div class="resipies_time">35mins |</div>
+          <div class="resipies_comment_image"><img src="./img/block_2/comments icon.png" alt=""></div>
+          <div class="recipes_comment_value">7</div>
+          <div class="recipies_comment_views_image"><img src="./img/block_2/View Icon@1X.png" alt=""></div>
+          <div class="recipies_comment_viws_value">14</div>
+        </div>
+      </div>
+      <div class="recipes_column">
+        <div class="recipes_image"><img src="./img/block_2/2.jpeg" alt=""></div>
+        <div class="resipies_title">Giant Ice Cream Sandwich</div>
+        <div class="resipies_note">
+          <div class="recipes_time_image"><img src="./img/block_2/Clock Icon@1X.png" alt=""></div>
+          <div class="resipies_time">20mins |</div>
+          <div class="resipies_comment_image"><img src="./img/block_2/comments icon.png" alt=""></div>
+          <div class="recipes_comment_value">4</div>
+          <div class="recipies_comment_views_image"><img src="./img/block_2/View Icon@1X.png" alt="" ></div>
+          <div class="recipies_comment_viws_value">356</div>
+        </div>
+      </div>
+      <div class="recipes_column ">
+        <div class="recipes_image"><img src="./img/block_2/3.jpeg" alt=""></div>
+        <div class="resipies_title">Dark Chocolate Crunch Ice Cream
+          Sandwich Cake</div>
+        <div class="resipies_note">
+          <div class="recipes_time_image"><img src="./img/block_2/Clock Icon@1X.png" alt=""></div>
+          <div class="resipies_time">15mins |</div>
+          <div class="resipies_comment_image"><img src="./img/block_2/comments icon.png" alt=""></div>
+          <div class="recipes_comment_value">4</div>
+          <div class="recipies_comment_views_image"><img src="./img/block_2/View Icon@1X.png" alt="">
+          </div>
+          <div class="recipies_comment_viws_value">167</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer_top">
+        <div class="footer_top_logo">
+          <img src="./img/Logo-white.png" alt="">
+        </div>
+        <div class="footer_menu">
+          <div class="footer_menu_item"><a href="">HOME</a></div>
+          <div class="footer_menu_item"><a href="">Recipes</a></div>
+          <div class="footer_menu_item"><a href="">Photo Galleries</a></div>
+          <div class="footer_menu_item"><a href="">Videos</a></div>
+          <div class="footer_menu_item"><a href="">All Categories</a></div>
+        </div>
+        <div class="footer_rights">&copy;2016-2017 LEMON. All right reserved</div>
+      </div>
+      <div class="footer_bottom">
+        <img src="./img/social_icons/google-plus.png" alt="" class="google_plus">
+        <img src="./img/social_icons/twitter.png" alt="" class="twitter">
+        <img src="./img/social_icons/facebook-f.png" alt="" class="facebook">
+        <img src="./img/social_icons/pinterest.png" alt="" class="pinterest">
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="./js/burger_menu.js"></script>
+  <script src="./js/modal.min.js"></script>
+  <script>const myModal = new HystModal({
+      linkAttributeName: "data-hystmodal",
+      //settings (optional). see API
+    });</script>
+</div>
+</body>
+
+</html>

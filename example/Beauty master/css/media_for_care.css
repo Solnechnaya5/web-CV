@@ -1,0 +1,161 @@
+@media(max-width:1056px) {
+ .menu_item {
+  font-size: 13px;
+ }
+}
+
+@media(max-width:975px) {
+ .menu_item {
+  font-size: 11px;
+ }
+}
+
+@media(max-width:897px) {
+ h2 {
+  font-size: 17px;
+ }
+
+ h3 {
+  font-size: 15px;
+ }
+
+ p {
+  font-size: 11px;
+ }
+
+ li {
+  font-size: 11px;
+  line-height: 20px;
+ }
+}
+
+@media (max-width:776px) {
+ .menu_items {
+  display: none;
+ }
+
+ .burger_menu {
+  display: flex;
+ }
+
+ .burger_menu_header {
+  position: relative;
+  width: 35px;
+  height: 24px;
+  display: block;
+  margin-right: 20px;
+ }
+
+ .burger_menu_header span {
+  height: 2px;
+  top: 11px;
+  width: 100%;
+  position: absolute;
+  background: #413a34;
+  margin: 0 auto;
+ }
+
+ .burger_menu_header:before {
+  content: '';
+  top: 4px;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background: #212121;
+  margin: 0 auto;
+ }
+
+ .burger_menu_header:after {
+  content: '';
+  bottom: 4px;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background: #212121;
+  margin: 0 auto;
+ }
+
+ .burger_menu_items {
+  position: absolute;
+  z-index: 10;
+  top: 90px;
+  right: -100%;
+  width: 50%;
+  height: 250px;
+  background-color: #f7ebda;
+  transition: all 0.4s ease;
+ }
+
+ .burger_menu_items.open-menu {
+  right: 0;
+ }
+
+ .burger_menu_header.open-menu span {
+  opacity: 0;
+  transition: 0.5s;
+ }
+
+ .burger_menu_header.open-menu:before {
+  transform: rotate(40deg);
+  top: 11px;
+  transition: 0.4s;
+ }
+
+ .burger_menu_header.open-menu:after {
+  transform: rotate(-40deg);
+  bottom: 11px;
+  transition: 0.4s;
+ }
+
+ body.fixed-page {
+  overflow: hidden;
+ }
+
+ .recommendations_brows {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+ }
+
+ .master_photo {
+  text-align: center;
+ }
+
+ .master_photo img {
+  max-width: 300px;
+ }
+
+ .recommendations_lips {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .recommendations_eyelashes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+}
+
+@media (max-width:576px) {
+ .recommendations_brows {
+  margin: 15px;
+ }
+
+ .master_photo img {
+  max-width: 250px;
+ }
+
+ .recommendations_lips_image img {
+  max-width: 200px;
+ }
+
+ .recommendations_eyelashes_image img {
+  max-width: 200px;
+ }
+}

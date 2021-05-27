@@ -1,0 +1,581 @@
+.wrapper {
+ max-width: 1300px;
+ margin: 0 auto;
+ background-color: #f7ebda;
+}
+
+.header {
+ position: relative;
+ max-width: 1300px;
+}
+
+.header_container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 90px;
+ background-color: #c79150;
+}
+
+.header_fixed {
+ position: fixed;
+ top: 0;
+ z-index: 10;
+ width: 100%;
+ transition: 0.3s top linear;
+}
+
+.header_logo {
+ margin-left: 30px;
+}
+
+.header_logo img {
+ width: 120px;
+ height: 90px;
+}
+
+.header_phone {
+ display: block;
+ vertical-align: bottom;
+}
+
+.header_phone a {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-decoration: none;
+}
+
+.header_phone img {
+ width: 15px;
+ line-height: 30px;
+}
+
+.header_menu {}
+
+.menu_items {
+ display: flex;
+ align-items: center;
+ margin-right: 30px;
+}
+
+.menu_item {
+ margin-right: 10px;
+ font-family: 'Merriweather-Regular';
+ font-size: 15px;
+ text-transform: uppercase;
+}
+
+.menu_item a {
+ display: block;
+ color: #413a34;
+ text-decoration: none;
+ padding: 3px;
+}
+
+.menu_item a:hover {
+ color: #f8dcb4;
+ background-color: #413a34;
+ border: 1px #413a34 solid;
+ border-radius: 20px;
+}
+
+.burger_menu {
+ display: none;
+}
+
+.burger_menu_header {}
+
+.burger_menu_items {
+ padding: 20px 40px;
+ background-color: #f7ebda;
+}
+
+.burger_menu_item {
+ margin-right: 40px;
+ margin-bottom: 10px;
+ font-family: 'Merriweather-Regular';
+ font-size: 15px;
+ text-transform: uppercase;
+ background-color: #f7ebda;
+}
+
+.burger_menu_item a {
+ display: block;
+ color: #413a34;
+ text-decoration: none;
+ padding: 3px;
+}
+
+/* про мастєра */
+.about_master {
+ display: flex;
+ background-color: #f7ebda;
+}
+
+.about_master_column {
+ flex: 0 0 50%;
+}
+
+.master_information {
+ padding: 50px 0 0 50px;
+}
+
+.master_information h1 {
+ font-family: 'Romanticascript';
+ font-size: 50px;
+ margin-bottom: 30px;
+}
+
+.master_information p {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 15px;
+ line-height: 25px;
+ margin-bottom: 10px;
+}
+
+.master_photo {
+ text-align: right;
+}
+
+.master_photo img {
+ max-width: 400px;
+ margin: 30px;
+}
+
+/* послуги */
+.services {
+ display: flex;
+ justify-content: space-around;
+ background-color: #f7ebda;
+ margin-bottom: 50px;
+}
+
+.servises_column {
+ flex: 0 0 25%;
+ display: flex;
+ flex-direction: column;
+ max-width: 270px;
+ /* max-height: auto; */
+ border-radius: 15px;
+ margin: 30px 0px 0px 10px;
+ box-shadow: 0 0 6px 4px rgba(212, 159, 91, 0.52);
+}
+
+.servises_column:hover {
+ box-shadow: 0 0 6px 6px rgba(199, 148, 81, 0.575);
+}
+
+.servises_block {
+ flex: 1 1 auto;
+ margin-bottom: 20px;
+}
+
+.servises_name {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 15px;
+ text-align: center;
+ line-height: 25px;
+ margin-bottom: 10px;
+}
+
+.services_image {
+ max-width: 270px;
+ margin-bottom: 10px;
+ padding: 8px;
+ overflow: hidden;
+ position: relative;
+}
+
+.services_image img {
+ width: 100%;
+ height: 250px;
+ object-fit: cover;
+ top: 0;
+ left: 0;
+}
+
+.servises_p li {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 14px;
+ list-style: circle;
+ line-height: 25px;
+ padding-right: 10px;
+ margin-bottom: 5px;
+}
+
+.services_price {
+ display: inline-block;
+ text-align: center;
+ margin-bottom: 15px;
+ position: relative;
+ top: 0;
+}
+
+.btn a {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 14px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 10px 15px;
+ background-color: #d49f5b;
+ border: 1px solid #413a34;
+ border-radius: 25px;
+ transition-property: background-color, top;
+ transition-duration: 0.5s;
+}
+
+.btn a:hover {
+ box-shadow: 0 0 6px 6px rgba(199, 148, 81, 0.575);
+ background-color: #c09153;
+}
+
+/* ____________галерея____________ */
+.gallery {
+ background-color: #f7ebda;
+ margin-bottom: 50px;
+}
+
+.gallery-slider {
+ padding: 50px 0 70px 0;
+}
+
+.gallery-slider__wrapper {}
+
+.gallery-slider__slide {}
+
+.gallery-slider__image {
+
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.gallery-slider__image img {
+ max-width: 100%;
+ height: 350px;
+}
+
+.gallery-slider .swiper-slide {
+ width: auto;
+}
+
+.gallery-slider .swiper-button-next::after,
+.gallery-slider .swiper-button-prev::after {
+ color: #b1854b;
+ font-size: 50px;
+}
+
+.gallery-slider .swiper-pagination {
+ bottom: 0;
+}
+
+.gallery-slider .swiper-pagination-bullet {
+ width: 15px;
+ height: 15px;
+ line-height: 15px;
+ font-size: 10px;
+ background-color: #c09153;
+}
+
+/* робоче місце */
+.workspace {
+ display: flex;
+}
+
+.workspace_column {
+ flex: 0 0 50%;
+ display: flex;
+ flex-direction: column;
+}
+
+.workspace_image {
+ max-width: 650px;
+ margin-right: 20px;
+}
+
+.workspace_image img {
+ object-fit: cover;
+ width: 100%;
+}
+
+.workspace_description {
+ flex: 1 1 auto;
+ position: relative;
+ bottom: 0;
+}
+
+.workspace_description h2 {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 25px;
+ line-height: 25px;
+ margin-bottom: 10px;
+}
+
+.workspace_description p {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ line-height: 25px;
+ margin-bottom: 10px;
+}
+
+.workspace_description_image {
+ text-align: right;
+}
+
+.workspace_description_image img {
+ max-width: 250px;
+ position: relative;
+ bottom: 0;
+}
+
+/* ціни  */
+.price {
+ display: flex;
+ justify-content: space-around;
+ margin: 50px auto;
+}
+
+.price_column {
+ flex: 0 0 33.333%;
+ max-width: 360px;
+ /* max-height: auto; */
+ border-radius: 15px;
+ box-shadow: 0 0 6px 4px rgba(212, 159, 91, 0.52);
+}
+
+.price_column:hover {
+ box-shadow: 0 0 6px 6px rgba(199, 148, 81, 0.575);
+}
+
+.price_title {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 20px;
+ text-align: center;
+ line-height: 25px;
+ padding: 15px;
+}
+
+.price_items {
+ padding: 20px;
+}
+
+.price_item {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-align: left;
+ line-height: 25px;
+}
+
+.price_items li {
+ list-style: none;
+}
+
+/* курси */
+.diplomas {
+ background-color: #f7ebda;
+ margin: 0 0 50px 0;
+}
+
+.diplomas-slider {
+ height: 400px;
+ padding: 50px 0 70px 0;
+}
+
+.swiper-container {}
+
+.diplomas-slider__wrapper {}
+
+.swiper-wrapper {}
+
+.diplomas-slider__slide {}
+
+.swiper-slide {}
+
+.diplomas-slider__image {
+
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.diplomas-slider__image img {
+ max-width: 100%;
+ height: 400px;
+}
+
+.diplomas-slider .swiper-slide {
+ width: auto;
+}
+
+.diplomas-slider .swiper-button-next::after,
+.diplomas-slider .swiper-button-prev::after {
+ color: #b1854b;
+ font-size: 50px;
+}
+
+.diplomas-slider .swiper-pagination {
+ bottom: 0;
+}
+
+.diplomas-slider .swiper-pagination-bullet {
+ width: 15px;
+ height: 15px;
+ line-height: 15px;
+ font-size: 10px;
+ background-color: #c09153;
+}
+
+/* контакти  */
+.contacts {}
+
+.contacts_conteiner {
+ display: flex;
+ margin: 10px 30px 50px 30px;
+}
+
+.contacts_column {
+ flex: 0 0 50%;
+}
+
+.contacts_coumn h3 {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 15px;
+ text-align: left;
+ line-height: 25px;
+}
+
+.contacts_items {}
+
+.contacts_items_address {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-align: left;
+ background: url(/img/social_icons/location-update.png) left no-repeat;
+ background-size: 17px;
+ display: inline-block;
+ vertical-align: bottom;
+ padding-left: 25px;
+ line-height: 25px;
+}
+
+.contacs_items_phone {
+ background: url(/img/social_icons/phone.png) left no-repeat;
+ background-size: 15px;
+ display: inline-block;
+ vertical-align: bottom;
+ padding-left: 25px;
+ margin-bottom: 20px;
+}
+
+.contacs_items_phone a {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-align: left;
+ text-decoration: none;
+ text-decoration: none;
+ line-height: 25px;
+}
+
+.contacs_items_social {
+ display: flex;
+}
+
+.contacs_items_social-1 img {
+ max-width: 35px;
+ max-height: 35px;
+ margin: 0 10px;
+}
+
+.contacs_items_social-2 img {
+ max-width: 35px;
+ max-height: 35px;
+ margin: 0 10px;
+}
+
+.contacs_items_social-3 img {
+ max-width: 35px;
+ max-height: 35px;
+ margin: 0 10px;
+}
+
+.contacts_map {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ height: 100%;
+ overflow: hidden;
+}
+
+.contacts_map iframe {
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.footer {
+ height: 90px;
+ background-color: #c79150;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.footer_container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+
+.footer_logo {
+ margin-left: 30px;
+}
+
+.footer_logo img {
+ width: 120px;
+ height: 100px;
+ margin-bottom: 15px;
+}
+
+.footer_phone {
+ display: inline-block;
+ vertical-align: bottom;
+ padding-left: 25px;
+ margin-bottom: 20px;
+}
+
+.footer_phone a {
+ font-family: 'Merriweather-Regular';
+ color: #413a34;
+ font-size: 13px;
+ text-align: left;
+ text-decoration: none;
+ text-decoration: none;
+ line-height: 25px;
+}
+
+.footer_phone img {
+ width: 15px;
+ align-items: center;
+}
+
+.advertising a {
+ color: #413a34;
+ font-size: 12px;
+ text-decoration: none;
+}
