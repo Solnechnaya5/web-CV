@@ -1,17 +1,30 @@
-@media(max-width:1056px){
- .menu_item{
-  font-size: 13px;
- }
-}
-@media(max-width:975px){
- .menu_item{
-  font-size: 11px;
- }
-
-}
 @media (max-width:897px) {
  .menu_item{
-  font-size: 10px;
+  font-size: 15px;
+ }
+ .introduction_myphoto img {
+  max-width: 250px;
+ }
+ .introduction_aboutme h1{
+ font-size: 25px;
+ }
+ .introduction_aboutme h3{
+  font-size: 20px;
+ }
+ .introduction_aboutme p{
+  font-size: 14px;
+ }
+ .portfolio h3{
+  font-size: 20px;
+ }
+ .contacts_conteiner h3{
+  font-size: 20px;
+ }
+ .contacs_items_phone a{
+  font-size: 15px;
+ }
+ .contacs_items_gmail a{
+  font-size: 15px;
  }
 }
 
@@ -96,119 +109,66 @@
  body.fixed-page {
   overflow: hidden;
  }
-
- .about_master {
-  flex-direction: column;
- }
-
- .master_information {
-  padding: 30px 0 0 30px;
- }
-
- .master_information h1 {
-  font-size: 35px;
-  text-align: center;
-  margin-bottom: 20px;
- }
-
- .master_information p {
-  font-size: 13px;
-  line-height: 20px;
-  margin-bottom: 8px;
- }
-
- .master_photo {
-  text-align: center;
- }
-
- .servises_p li {
-  font-size: 13px;
-  line-height: 20px;
- }
-
- .workspace {
-  flex-direction: column;
-  justify-content: center;
- }
-
- .workspace_image {
-  margin: 0 auto;
- }
-
- .workspace_description {
-  margin: 20px;
- }
-
- .price {
-  flex-direction: column;
-  align-items: center;
- }
-
- .price_column {
-  max-width: 450px;
-  width: 100%;
-  margin-bottom: 20px;
- }
-
- .price_item {
-  font-size: 13px;
- }
-
- .diplomas {
-  margin: 0 0 40px 30px;
- }
 }
 
 @media (max-width:576px) {
- .diplomas {
-  margin: 0 0 40px 20px;
+ .portfolio_example_box_mini_button a{
+  font-size: 14px;
+  padding: 15px 10px;
+ }
+ .portfolio_example_box_mini_text p{
+  font-size: 15px;
  }
 }
 
 @media (max-width:480px) {
- .master_photo img {
-  max-width: 300px;
-  margin: 10px;
+ .menu_item{
+  font-size: 15px;
  }
-
- .servises_column {
-  flex: auto;
-  max-width: 100%;
- }
-
- .services_image {
-  margin: 0 auto;
- }
-
- .gallery-slider__image {
-  height: 300px;
- }
-
- .contacts_conteiner {
-  flex-direction: column;
- }
-
- .contacts_map {
-  width: 100%;
-  height: 300px;
- }
-
- .diplomas {
-  margin: 0 0 30px 10px;
- }
+.introduction {
+flex-direction: column-reverse;
 }
-
-@media (max-width:320px) {
- .price_title {
-  padding-bottom: 5px;
+ .introduction_myphoto img {
+  max-width: 270px;
  }
-
- .price_item {
-  font-size: 11px;
-  line-height: 19px;
+ .introduction_aboutme h1{
+ font-size: 20px;
+ line-height: 17px;
  }
-
- .price_items {
-  padding: 10px;
+ .introduction_aboutme h3{
+  font-size: 15px;
+ }
+ .introduction_aboutme p{
+  font-size: 12px;
+ }
+ .portfolio h3{
+  font-size: 15px;
+ }
+ .contacts_conteiner h3{
+  font-size: 15px;
+ }
+ .contacs_items_phone a{
+  font-size: 13px;
+ }
+ .contacs_items_gmail a{
+  font-size: 13px;
+ }
+ .contacs_items_phone img {
+  width: 20px;
+ }
+ .contacs_items_gmail img {
+  width: 18px;
+  height: 18px;
+ }
+ .contacs_items_viber img {
+  width: 25px;
+ }
+ 
+ .contacs_items_telegram img {
+  width: 25px;
+ }
+ 
+ .contacs_items_linkedin img {
+  width: 25px;
  }
 }
