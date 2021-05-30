@@ -129,7 +129,7 @@
 flex-direction: column-reverse;
 }
  .introduction_myphoto img {
-  max-width: 270px;
+  max-width: 200px;
  }
  .introduction_aboutme h1{
  font-size: 20px;
