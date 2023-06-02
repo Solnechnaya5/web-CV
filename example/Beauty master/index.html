@@ -9,17 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/style.css" />
     <!-- <link rel="stylesheet" href="css/null.css"> -->
-    <link rel="stylesheet" href="css/fonts.css" />
+    <!-- <link rel="stylesheet" href="css/fonts.css" /> -->
     <link rel="stylesheet" href="css/media_for_style.css" />
 
     <title>oh-pm.ho.ua</title>
   </head>
 
   <body>
+    <div class="back-cv">
+      <a href="https://solnechnaya5.github.io/web-CV/">Повернутися до резюме</a>
+    </div>
     <div class="wrapper">
+      
       <!-- шапка -->
       <header class="header">
         <div class="header_container">
@@ -296,73 +303,57 @@
         </section>
         <!-- курси -->
         <section class="diplomas">
-          <div class="diplomas-slider swiper-container">
-            <div class="diplomas-slider__wrapper swiper-wrapper">
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/1.jpg" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/2.jpg" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/3.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/4.png" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/5.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/6.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/7.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/8.jpeg" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/9.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/10.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/11.JPG" alt="фото" />
-                </div>
-              </div>
-              <div class="diplomas-slider__slide swiper-slide">
-                <div class="diplomas-slider__image">
-                  <img src="./img/diplomas/12.jpeg" alt="фото" />
-                </div>
+          <div class="diplomas-slider">
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/1.jpg" alt="diploma">
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-          </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/2.jpg" alt="diploma">
+              </div>
+            </div><div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/3.jpg" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/4.png" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/5.jpg" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/6.jpg" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/7.jpg" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/8.jpeg" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/9.jpg" alt="diploma">
+              </div>
+            </div>
+            <div class="diplomas-slider_item">
+              <div class="diplomas-slider_item-img">
+                <img src="img/diplomas/10.jpg" alt="diploma">
+              </div>
+            </div>
+        </div>
         </section>
         <!-- контакти -->
         <section class="contacts" id="contacts">
@@ -427,9 +418,96 @@
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/menu_burger.js"></script>
+    <script type="text/javascript"
+        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>    <script src="js/menu_burger.js"></script>
     <script src="js/menu_fixed.js"></script>
-    <script src="js/slider.js"></script>
+    <!-- <script src="js/slider.js"></script> -->
+    <script>
+      $(document).ready(function(){
+     $('.gallery-slider').slick({
+   infinite: true,
+   slidesToShow: 3,
+   slidesToScroll: 3,
+   dots:true,
+   arrows: false,
+   speed: 300,
+  //  autoplay: true,
+   autoplaySpeed: 3000,
+   pauseOnHover: true,
+   pauseOnFocus: true,
+   swipe: true,
+ //   touchThreshold:2,
+   touchMove: true,
+   responsive:[
+     {
+         breakpoint: 1024,
+         settings:{
+             slidesToShow: 3,
+   slidesToScroll: 3,
+         }
+     },
+     {
+         breakpoint: 800,
+         settings:{
+             slidesToShow: 2,
+   slidesToScroll: 2,
+         }
+     },
+     {
+         breakpoint: 360,
+         settings:{
+             slidesToShow: 1,
+   slidesToScroll: 1,
+         }
+     }
+
+   ]
+ });
+      });
+ </script>
+ <script>
+     
+     $(document).ready(function(){
+     $('.diplomas-slider').slick({
+   infinite: true,
+   slidesToShow: 4,
+   slidesToScroll: 4,
+   dots:true,
+   arrows: false,
+   speed: 300,
+   autoplay: true,
+   autoplaySpeed: 3000,
+   pauseOnHover: true,
+   pauseOnFocus: true,
+   swipe: true,
+   touchThreshold:2,
+   touchMove: true,
+   responsive:[
+   {
+         breakpoint: 1024,
+         settings:{
+             slidesToShow: 3,
+   slidesToScroll: 3,
+         }
+     },
+     {
+         breakpoint: 800,
+         settings:{
+             slidesToShow: 2,
+   slidesToScroll: 2,
+         }
+     },
+     {
+         breakpoint: 360,
+         settings:{
+             slidesToShow: 1,
+   slidesToScroll: 1,
+         }
+     }
+   ]
+ });
+      });
+
+ </script>
   </body>
 </html>
