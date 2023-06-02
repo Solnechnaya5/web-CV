@@ -1,82 +1,60 @@
-new Swiper('.gallery-slider', {
- navigation: {
-  nextEl: '.swiper-button-next',
-  prevEl: '.swiper-button-prev'
- },
-
- pagination: {
-  el: '.swiper-pagination',
-  clickable: true,
-  dynamicBullets: true,
- },
-
- keyboard: {
-  enabled: true,
-  pageUpDown: true,
- },
- autoHeight: true,
- slidesPerView: 4,
- spaceBetween: 8,
- preloadImages: false,
- lazy: {
-  loadOnTransitionStart: false,
-  loadPrevNext: false,
- },
- breakpoints: {
-  320: {
-   slidesPerView: 1,
-  },
-  480: {
-   slidesPerView: 1,
-  },
-  7866: {
-   slidesPerView: 2,
-  },
-  850: {
-   slidesPerView: 3,
-  },
- },
- watchSlidesProgress: true,
- watchSlidesVisibility: true,
-
+$(document).ready(function(){
+    $('.gallery-slider').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  dots:true,
+  arrows: false,
+  speed: 300,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  pauseOnHover: true,
+  pauseOnFocus: true,
+  swipe: true,
+//   touchThreshold:2,
+  touchMove: true,
+  responsive:[
+    {
+        breakpoint: 850,
+        settings:{
+            slidesToShow: 2,
+  slidesToScroll: 2,
+        }
+    },
+    {
+        breakpoint: 533,
+        settings:{
+            slidesToShow: 1,
+  slidesToScroll: 1,
+        }
+    }
+  ]
 });
-// сладедр дипломов
-new Swiper('.diplomas-slider', {
- navigation: {
-  nextEl: '.swiper-button-next',
-  prevEl: '.swiper-button-prev'
- },
+     });
 
- pagination: {
-  el: '.swiper-pagination',
-  clickable: true,
-  dynamicBullets: true,
- },
-
- keyboard: {
-  enabled: true,
-  pageUpDown: true,
- },
- autoHeight: true,
- slidesPerView: 4,
- spaceBetween: 8,
- preloadImages: false,
- lazy: {
-  loadOnTransitionStart: false,
-  loadPrevNext: false,
- },
- breakpoints: {
-  320: {
-   slidesPerView: 1,
-  },
-  480: {
-   slidesPerView: 2,
-  },
-  850: {
-   slidesPerView: 3,
-  },
- },
- watchSlidesProgress: true,
- watchSlidesVisibility: true,
-
+    $(document).ready(function(){
+    $('.testimonials-slider').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  dots:true,
+  arrows: false,
+  speed: 300,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  pauseOnHover: true,
+  pauseOnFocus: true,
+  swipe: true,
+  touchThreshold:2,
+  touchMove: true,
+  responsive:[
+   {
+        breakpoint: 1024,
+        settings:{
+            slidesToShow: 1,
+  slidesToScroll: 1,
+        }
+    }
+  ]
 });
+     });
