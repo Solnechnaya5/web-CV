@@ -297,6 +297,8 @@ object-fit: cover;
 .socials {
  display: flex;
  justify-content: space-between;
+ width: 150px;
+ margin: 20px auto;
 }
 
 .socials li {
