@@ -269,19 +269,26 @@
     width: 1200px;
     height: 450px;
     margin: 0 auto;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .gallery-slider_item,
 .diplomas-slider_item {
-    width: auto;
+    max-width: 360px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin-right: 10px; */
+}
+.gallery-slider_item.slick-slide.slick-active{
+    max-width: 360px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* 
 .gallery-slider_item:last-child {
