@@ -1,0 +1,237 @@
+@media(max-width:1056px){
+ 
+ .header__menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+ }
+ .menu__item a {
+  margin: 0 30px;
+ }
+ .restaurant__works-days {
+  height: 200px;
+ }
+ .restaurant__name h1 {
+  font-size: 70px;
+  line-height: 0px;
+ }
+ .restaurant__btns {
+  margin: 70px 0 40px 0;
+ }
+ .booking__container {
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ }
+ .yellow__line2 {
+ 
+ position: absolute;
+ left: 250px;
+ top: 80.26px;
+ }
+ }
+@media(max-width:975px){
+
+}
+
+@media (max-width:897px) {
+}
+
+@media (max-width:776px) {
+ 
+.header__menu{
+ display: none;
+}
+ .burger-menu {
+  display: flex;
+ }
+ 
+ .burger-menu__header {
+  position: relative;
+  width: 35px;
+  height: 24px;
+  display: block;
+  margin-right: 20px;
+ }
+
+ .burger-menu__header span {
+  height: 2px;
+  top: 11px;
+  width: 100%;
+  position: absolute;
+  background: #FFFFFF;
+  margin: 0 auto;
+ }
+
+ .burger-menu__header:before {
+  content: '';
+  top: 4px;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background: #212121;
+  margin: 0 auto;
+ }
+
+ .burger-menu__header:after {
+  content: '';
+  bottom: 4px;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background: #212121;
+  margin: 0 auto;
+ }
+
+ .burger-menu__items  {
+  position: absolute;
+  z-index: 10;
+  top: 90px;
+  right: -100%;
+  width: 50%;
+  height: 250px;
+  background-color: #f7ebda;
+  transition: all 0.4s ease;
+ }
+
+ .burger-menu__items  .open-menu {
+  right: 0;
+ }
+
+ .burger-menu__header .open-menu span {
+  opacity: 0;
+  transition: 0.5s;
+ }
+
+ .burger-menu__header.open-menu:before {
+  transform: rotate(40deg);
+  top: 11px;
+  transition: 0.4s;
+ }
+
+ .burger-menu__header.open-menu:after {
+  transform: rotate(-40deg);
+  bottom: 11px;
+  transition: 0.4s;
+ }
+
+ body.fixed-page {
+  overflow: hidden;
+ }
+
+ .about_master {
+  flex-direction: column;
+ }
+
+ .master_information {
+  padding: 30px 0 0 30px;
+ }
+
+ .master_information h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+
+ .master_information p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 8px;
+ }
+
+ .master_photo {
+  text-align: center;
+ }
+
+ .servises_p li {
+  font-size: 13px;
+  line-height: 20px;
+ }
+
+ .workspace {
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .workspace_image {
+  margin: 0 auto;
+ }
+
+ .workspace_description {
+  margin: 20px;
+ }
+
+ .price {
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .price_column {
+  max-width: 450px;
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .price_item {
+  font-size: 13px;
+ }
+
+ .diplomas {
+  margin: 0 0 40px 30px;
+ }
+}
+
+@media (max-width:576px) {
+ .diplomas {
+  margin: 0 0 40px 20px;
+ }
+}
+
+@media (max-width:480px) {
+ .master_photo img {
+  max-width: 300px;
+  margin: 10px;
+ }
+
+ .servises_column {
+  flex: auto;
+  max-width: 100%;
+ }
+
+ .services_image {
+  margin: 0 auto;
+ }
+
+ .gallery-slider__image {
+  height: 300px;
+ }
+
+ .contacts_conteiner {
+  flex-direction: column;
+ }
+
+ .contacts_map {
+  width: 100%;
+  height: 300px;
+ }
+
+ .diplomas {
+  margin: 0 0 30px 10px;
+ }
+}
+
+@media (max-width:320px) {
+ .price_title {
+  padding-bottom: 5px;
+ }
+
+ .price_item {
+  font-size: 11px;
+  line-height: 19px;
+ }
+
+ .price_items {
+  padding: 10px;
+ }
+}

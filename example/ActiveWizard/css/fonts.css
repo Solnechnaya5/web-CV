@@ -1,0 +1,45 @@
+@font-face { 
+ font-family: "TTHovesRegular";
+ src: url("../fonts/TTHoves/TTHoves-Regular.eot");
+ src: url("../fonts/TTHoves/TTHoves-Regular.eot?#iefix")format("embedded-opentype"),
+ url("../fonts/TTHoves/TTHoves-Regular.woff") format("woff"),
+ url("../fonts/TTHoves/TTHoves-Regular.ttf") format("truetype");
+ font-style: normal;
+ font-weight: 400;
+}
+@font-face { 
+ font-family: "TTHovesLight";
+ src: url("../fonts/TTHoves/TTHoves-Light.eot");
+ src: url("../fonts/TTHoves/TTHoves-Light.eot?#iefix")format("embedded-opentype"),
+ url("../fonts/TTHoves/TTHoves-Light.woff") format("woff"),
+ url("../fonts/TTHoves/TTHoves-Light.ttf") format("truetype");
+ font-style: normal;
+ font-weight: 300;
+}
+@font-face { 
+ font-family: "TTHovesBold";
+ src: url("../fonts/TTHoves/TTHoves-Bold.eot");
+ src: url("../fonts/TTHoves/TTHoves-Bold.eot?#iefix")format("embedded-opentype"),
+ url("../fonts/TTHoves/TTHoves-Bold.woff") format("woff"),
+ url("../fonts/TTHoves/TTHoves-Bold.ttf") format("truetype");
+ font-style: bold;
+ font-weight: 600;
+}
+@font-face {
+ font-family: 'San Francisco Pro Display Bold';
+ src: url('../fonts/SFProDisplay/SFProDisplay-Bold.eot');
+ src: url('../fonts/SFProDisplay/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+ url('../fonts/SFProDisplay/SFProDisplay-Bold.woff') format('woff'),
+ url('../fonts/SFProDisplay/SFProDisplay-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ }
+ @font-face {
+  font-family: 'fontf95b1ffff1b7c10e9040a27bf903d4db';
+      
+      src:    url('https://nomail.com.ua/files/eot/f95b1ffff1b7c10e9040a27bf903d4db.eot?#iefix') format('embedded-opentype'),
+              url('https://nomail.com.ua/files/woff/f95b1ffff1b7c10e9040a27bf903d4db.woff') format('woff'),
+              url('https://nomail.com.ua/files/woff2/f95b1ffff1b7c10e9040a27bf903d4db.woff2') format('woff2');
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');

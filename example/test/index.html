@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/null.css"> -->
+  <!-- <link rel="stylesheet" href="css/fonts.css"> -->
+  <link rel="stylesheet" href="css/media_for_style.css">
+  <link rel="stylesheet" href="fonts/banny-cufonfonts-webfont/font_banny.css">
+
+
+  <title>test</title>
+</head>
+
+<body onload="refresh();">
+  <div class="wrapper">
+    <!-- шапка -->
+    <div class="top">
+      <header class="header">
+
+        <nav class="header__menu">
+          <div class="menu__items">
+            <div class="menu__item"><a href="#home">home</a></div>
+            <div class="menu__item"><a href="#about">about</a></div>
+            <div class="menu__item"><a href="#team">team</a></div>
+            <div class="menu__item"><a href="#booking">booking</a></div>
+          </div>
+          <div class="header__logo">
+            <img src="./img/header/logo.png" alt="img">
+          </div>
+          <div class="menu__items">
+            <div class="menu__item"><a href="#menu">menu</a></div>
+            <div class="menu__item"><a href="">galerie</a></div>
+            <div class="menu__item"><a href="">events</a></div>
+            <div class="menu__item"><a href="">contact</a></div>
+          </div>
+        </nav>
+        <!-- ________burger menu_____ -->
+        <nav class="burger-menu">
+          <div class="burger-menu__header">
+            <span></span>
+          </div>
+          <nav class="burger-menu__items">
+            <ul>
+              <li class="burger-menu__item"><a href="#home">home</a></li>
+              <li class="burger-menu__item"><a href="#about">about</a></li>
+              <li class="burger-menu__item"><a href="#team">team</a></li>
+              <li class="burger-menu__item"><a href="#booking">booking</a></li>
+              <li class="burger-menu__item"><a href="#menu">menu</a></li>
+              <li class="burger-menu__item"><a href="#galerie">galerie</a></li>
+              <li class="burger-menu__item"><a href="#events">events</a></li>
+              <li class="burger-menu__item"><a href="#contacts">contact</a></li>
+            </ul>
+          </nav>
+        </nav>
+      </header>
+      <div class="line-1">
+        <img src="./img/Line.png" alt="">
+      </div>
+
+      <div class="line-2">
+        <img src="./img/Line.png" alt="">
+      </div>
+      <div class="restaurant">
+        <div class="restaurant__works">
+          <div class="restaurant__works-timer">
+            left: <span id="timer"></span>
+          </div>
+          <div class="restaurant__works-days">
+            <p> Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+          </div>
+        </div>
+
+        <div class="restaurant__name">
+          <h2>restaurant</h2>
+          <h1>hungry people</h1>
+          <span class="yellow__line"></span>
+          <div class="restaurant__btns">
+            <a href="" class="btn">BOOK TABLE</a>
+            <a href="" class="btn">EXPLORE</a>
+          </div>
+          <div class="circle"></div>
+          <div class="restaurant__btns-down">
+            <a href=""><img src="./img/header/expand_arrow.png" alt=""></a>
+          </div>
+        </div>
+        <ul class="restaurant__social-networks">
+          <li class="restaurant__facebook"><a href=""><img src="./img/header/icon_facebook.png" alt="img"></a></li>
+          <li class="restaurant__twitter"><a href=""><img src="./img/header/icons_twitter.png" alt="img"></a></li>
+          <li class="restaurant__instagram"><a href=""><img src="./img/header/icons_instagram.png" alt="img"></a></li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <section class="booking">
+        <div class="booking__container">
+          <div class="booking__table">
+            <div class="booking__title">
+              <h2>book a table </h2>
+              <div class="yellow__line2"></div>
+            </div>
+            <form action="#" class="booking__form-body">
+              <div class="booking__form-lines">
+                <div class="booking__form-line">
+                  <input autocomplete="off" type="text" name="[]" placeholder="Name" class="input">
+                </div>
+                <div class="booking__form-line">
+                  <input autocomplete="off" type="text" name="[]" placeholder="Email" class="input">
+                </div>
+                <div class="booking__form-line">
+                  <input autocomplete="off" type="text" name="[]" placeholder="Phone" class="input">
+                </div>
+                <div class="booking__form-line">
+                  <select name="People" tabindex="9">
+                    <option value="People">People</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="booking__form-line">
+                  <input autocomplete="off" type="text" name="[]" placeholder="Date (mm/dd)" class="input">
+                </div>
+                <div class="booking__form-line">
+                  <select name="People" tabindex="9">
+                    <option value="Time">Time</option>
+                    <option value="00:00">00:00</option>
+                    <option value="00:00">00:00</option>
+                    <option value="00:00">00:00</option>
+                    <option value="00:00">00:00</option>
+                  </select>
+                </div>
+              </div>
+              <button type="submit" class="booking_form-button btn">
+                Send message <img src="./img/contact_form/right_arrow.png" alt=""></button>
+            </form>
+          </div>
+
+          <div class="booking__images">
+            <div class="booking__img">
+              <img src="./img/booking/clock.png" alt="img">
+            </div>
+            <div class="booking__frame">
+              <img src="./img/yellow_frame.png" alt="img">
+            </div>
+          </div>
+        </div>
+        <div class="booking__info">
+          Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>, Phone: <b>+40 729 131 637/+40 726 458 782</b>
+        </div>
+      </section>
+
+
+      <section class="specialties">
+        <div class="specialties-slider swiper-container">
+          <div class=" specialties-slider__wrapper swiper-wrapper">
+            <div class="specialties-slider__slide swiper-slide">
+              <div class="specialties-slider__title">
+                <h3>specialties</h3>
+              </div>
+              <div class="slide__container">
+
+                <div class="slide__images">
+                  <div class="slide__img">
+                    <img src="./img/specialties/recipy.png" alt="">
+                  </div>
+                  <div class="slide__frame">
+                    <img src="./img/yellow_frame.png" alt="">
+                  </div>
+                </div>
+                <div class="slide__dish-description">
+
+                  <div class="slide__dish-title">
+                    <h3>chocolate pancakes</h3>
+                    <span class="yellow__line"></span>
+                  </div>
+                  <p><b>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                      tempor
+                      magna.</b>
+                  </p>
+                  <p>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula.
+                    Sed
+                    dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="specialties-slider__slide swiper-slide">
+              <div class="specialties-slider__title">
+                <h3>specialties</h3>
+              </div>
+              <div class="slide__container">
+
+                <div class="slide__images">
+                  <div class="slide__img">
+                    <img src="./img/specialties/recipy.png" alt="">
+                  </div>
+                  <div class="slide__frame">
+                    <img src="./img/yellow_frame.png" alt="">
+                  </div>
+                </div>
+                <div class="slide__dish-description">
+
+                  <div class="slide__dish-title">
+                    <h3>chocolate pancakes</h3>
+                    <span class="yellow__line"></span>
+                  </div>
+                  <p><b>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                      tempor
+                      magna.</b>
+                  </p>
+                  <p>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula.
+                    Sed
+                    dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="specialties-slider__slide swiper-slide">
+              <div class="specialties-slider__title">
+                <h3>specialties</h3>
+              </div>
+              <div class="slide__container">
+
+                <div class="slide__images">
+                  <div class="slide__img">
+                    <img src="./img/specialties/recipy.png" alt="">
+                  </div>
+                  <div class="slide__frame">
+                    <img src="./img/yellow_frame.png" alt="">
+                  </div>
+                </div>
+                <div class="slide__dish-description">
+
+                  <div class="slide__dish-title">
+                    <h3>chocolate pancakes</h3>
+                    <span class="yellow__line"></span>
+                  </div>
+                  <p><b>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                      tempor
+                      magna.</b>
+                  </p>
+                  <p>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula.
+                    Sed
+                    dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="delisious-menu">
+        <div class="delisious-menu__title">
+          <h2>delisious menu</h2>
+          <span class="yellow__line"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.</p>
+        </div>
+        <nav>
+          <ul class="delisious-menu__items">
+            <li> <a href="#">SOUPE</a> </li>
+            <li> <a href="#">PIZZA</a></li>
+            <li> <a href="#">PASTA</a></li>
+            <li> <a href="#">DESERT</a></li>
+            <li> <a href="#">WINE</a></li>
+            <li> <a href="#">BEER</a></li>
+            <li> <a href="#">DRINKS</a></li>
+          </ul>
+        </nav>
+        <div class="delisious-menu__pricelist">
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="delisious-menu__pricelist-item">
+            <h2><a href="#">PIZZA QUATRO STAGIONI . . . . </a> 55,68 USD </h2>
+            <p>Integer ullamcorper neque eu purus euismod</p>
+          </div>
+        </div>
+      </section>
+      <section class="private-events">
+        <h3>private events</h3>
+        <div class="private-events__container">
+        <div class="private-events__container-left">
+          <div class="private-events__container-left-img">
+            <img src="./img/private-event/wedding.png" alt="img">
+          </div>
+          <div class="private-events__container-left-frame">
+            <img src="./img/yellow_frame.png" alt="img">
+          </div>
+          <div class="private-events__container-left-text">
+            weddings
+          </div>
+        </div>
+        
+        <div class="private-events__container-right">
+          <div class="private-events__container-right-img">
+            <img src="./img/private-event/corporative.png" alt="img">
+          </div>
+          <div class="private-events__container-right-frame">
+            <img src="./img/yellow_frame.png" alt="img">
+          </div>
+          <div class="private-events__container-right-text">
+            corporate pzrties
+          </div>
+        </div>
+           </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/menu_burger.js"></script>
+    <script src="js/menu_fixed.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/countDown.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,689 @@
+@import url(./fonts.css);
+
+.wrapper {
+ max-width: 1341.87px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+
+.top {
+ height: 745px;
+ background: url(../img/header/header_bg.png) center no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.header {
+}
+
+.header__menu {
+ display: flex;
+ justify-content: space-between;
+ margin: 0 74.55px 0 74.55px;
+}
+
+.menu__items {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 93.19px;
+ list-style: none;
+ border-bottom: 0.93px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu__item a {
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 11.1823px;
+ line-height: 17px;
+ text-decoration: none;
+ margin: 0 40px;
+}
+
+.header__logo {
+ margin: 23.3px 0;
+}
+
+.burger-menu {
+ display: none;
+}
+
+.burger-menu__header {
+ color: #FFFFFF;
+
+}
+
+.burger-menu__items {
+ background-color:white;
+}
+
+.burger-menu__item a {
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 11.1823px;
+ line-height: 17px;
+ text-decoration: none;
+ margin: 0 40px;
+}
+
+.restaurant {
+ display: flex;
+
+}
+
+.restaurant__works {
+ display: flex;
+ flex-direction: column;
+ max-width: 350px;
+ background: 650px;
+ 
+}
+
+.line-1 img {
+ width: 3px;
+ height: 650px;
+ position: absolute;
+ left: 260px;
+ top: 95px;
+}
+
+.line-2 img {
+ width: 3px;
+ max-height: 650px;
+ position:absolute;
+ right: 260px;
+ top: 95px;
+}
+
+.restaurant__works-timer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 200px;
+ height: 64px;
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 30px;
+ line-height: 17px;
+ background: rgba(196, 196, 196, 0.3);
+ margin-bottom: 200px;
+}
+
+.restaurant__works-days {
+ height: 240px;
+}
+
+.restaurant__works-days p {
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 11.1823px;
+ line-height: 11px;
+ text-align: center;
+ color: #FFFFFF;
+ transform: rotate(-90deg);
+}
+
+.restaurant__name {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ min-width: 896.87px;
+ color: #FFFFFF;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.restaurant__name h1 {
+ font-family: 'Banny Bold Round';
+ font-size: 89.4581px;
+ line-height: 0px;
+}
+
+.restaurant__name h2 {
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 11.1823px;
+ line-height: 13px;
+ letter-spacing: 0.5em;
+}
+
+.yellow__line {
+ display: inline-block;
+ width: 55.91px;
+ height: 4.76px;
+ background: #E8C300;
+ border-radius: 46.5928px;
+}
+
+.restaurant__btns {
+ margin: 89.46px 0 50px 0;
+}
+
+.btn {
+ display: inline-block;
+ color: white;
+ width: 186.37px;
+ height: 55.91px;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 11.1823px;
+ line-height: 19px;
+ letter-spacing: 0.5px;
+ text-transform: uppercase;
+ text-decoration: none;
+ text-align: center;
+ padding: 15px 15px;
+ border: 0.931856px solid rgba(255, 255, 255, 0.5);
+ box-sizing: border-box;
+ border-radius: 4.65928px;
+ margin: 0 17.7px;
+}
+
+.btn:hover {
+ background-color: #E8C300;
+}
+
+.circle {
+ width: 65px;
+ height: 65px;
+ border: 1px solid rgba(255, 255, 255, 0.5);
+ border-radius: 50px;
+ position: relative;
+ top: 53px;
+
+}
+
+.restaurant__btns-down {
+ display: inline-block;
+ width: 37px;
+ height: 37px;
+ background-color: #FFFFFF;
+ border-radius: 50%;
+ position: relative;
+}
+
+.restaurant__btns-down img {
+ position: absolute;
+ left: 16.67%;
+ right: 16.67%;
+ top: 16.67%;
+ bottom: 16.67%;
+ z-index: 20;
+}
+
+.restaurant__social-networks {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ max-width: 205px;
+}
+
+.restaurant__facebook {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 37.27px;
+ height: 37.27px;
+ border: 0.93px solid rgba(255, 255, 255, 0.2);
+ border-radius: 50%;
+ margin-bottom: 19px;
+}
+
+.restaurant__facebook img {
+ width: 18.64px;
+ height: 18.64x;
+}
+
+.restaurant__twitter {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 37.27px;
+ height: 37.27px;
+ border: 0.93px solid rgba(255, 255, 255, 0.2);
+ border-radius: 50%;
+ margin-bottom: 19px;
+}
+
+.restaurant__twitter img {
+ width: 18.64px;
+ height: 18.64x;
+}
+
+.restaurant__instagram {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 37.27px;
+ height: 37.27px;
+ border: 0.93px solid rgba(255, 255, 255, 0.2);
+ border-radius: 50%;
+}
+
+.restaurant__instagram img {
+ width: 18.64px;
+ height: 18.64x;
+}
+
+.booking {
+ 
+}
+
+.booking__container {
+ display: flex;
+align-items:center;
+}
+
+.booking__table {
+ flex: 0 0 50%;
+ max-width: 530px;
+ margin-left:  26.73px;
+}
+.booking__title{
+ display: flex;
+ flex-direction: column;
+ justify-content:flex-start;
+align-items: center;
+position: relative;
+}
+.booking__table h2 {
+ font-family: 'Banny Round';
+ font-size: 33.5468px;
+ line-height: 45px;
+ text-align: center;
+ text-transform: uppercase;
+ color: #000000;
+}
+.yellow__line2 {
+ display: inline-block;
+ width: 56.76px;
+height: 4.66px;
+background: #E8C300;
+border-radius: 4.65928px;
+position: absolute;
+left: 311.56px;
+top: 80.26px;
+}
+.booking__form-body {}
+
+.booking__form-lines {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.booking__form-line {
+ margin: 3px;
+}
+
+.input {
+ width: 258.12px;
+ height: 55.91px;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 13.046px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ text-indent: 18.6371px;
+ color: rgba(51, 51, 51, 0.5);
+ background: #E5E5E5;
+ border-radius: 4.65928px;
+ border: none;
+}
+
+select {
+ width: 260.12px;
+ height: 55.91px;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 13.046px;
+ line-height: 18px;
+ display: flex;
+ text-indent: 8.6371px;
+ color: rgba(51, 51, 51, 0.4);
+ background: #E5E5E5;
+ border-radius: 4.65928px;
+ border: none;
+}
+
+.booking_form-button {
+ width: 530px;
+ height: 55.91px;
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 11.1823px;
+ line-height: 19px;
+ color: #FFFFFF;
+ background: #E8C300;
+ border-radius: 4.65928px;
+ margin: 0;
+}
+
+.btn {}
+
+.booking__images {
+ flex: 0 0 50%;
+ position: relative;
+ margin-bottom: 30px;
+}
+
+.booking__img {
+ 
+ filter: drop-shadow(0px 0px 46.5928px rgba(0, 0, 0, 0.5));
+ border-radius: 4.65928px;
+}
+
+.booking__frame {
+position: absolute;
+width: 210.6px;
+height: 210.6px;
+top: 50px;
+left: 290px;
+}
+
+.booking__info {
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 11.1823px;
+ line-height: 11px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 93.19px;
+ color: rgba(51, 51, 51, 0.5);
+ border-radius: 4.65928px;
+}
+
+.specialties {
+height: 629px;
+background:url(../img/specialties/specialtys_bg.png) center no-repeat;
+}
+
+.specialties-slider {
+ background: url(../img/Line.png),url(../img/Line.png),url(../img/Line.png);
+ background-repeat: no-repeat;
+ background-position: 335.25px 0, 665.5px 0, 1000.75px 0;
+ height:629px;
+}
+.swiper-container {
+}
+.specialties-slider__wrapper {
+
+}
+.swiper-wrapper {
+}
+.specialties-slider__slide {
+}
+.swiper-slide {
+}
+.specialties-slider__title {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 93.19px;
+}
+.specialties-slider__title h3{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 11.1823px;
+line-height: 13px;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.slide__container {
+ display: flex;
+ color: #FFFFFF;
+}
+.slide__images {
+ position: relative;
+}
+.slide__img {
+margin: 0 74.55px 0 174px;
+}
+.slide__img img{
+max-width: 442.63px;
+height: 442.63;
+}
+.slide__frame {
+position: absolute;
+top: 50px;
+left: 0;
+width: 232.96px;
+height: 244.82px;
+}
+.slide__dish-description {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 559.11px;
+}
+.slide__dish-title {
+ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+font-family: 'Banny Round';
+font-size: 33.5468px;
+line-height: 45px;
+text-align: center;
+text-transform: uppercase;
+}
+.slide__dish-description p{
+text-align: center;
+}
+.specialties-slider .swiper-pagination {
+bottom: 41.93px;
+}
+.specialties-slider .swiper-pagination-bullet{
+ width: 9.32px;
+ height: 9.32px;
+ line-height: 15px;
+ font-size: 10px;
+ background-color: #FFFFFF;
+}
+.delisious-menu {}
+.delisious-menu__title{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.delisious-menu__title h2{
+ font-family: 'Banny Round';
+ font-size: 33.5468px;
+ line-height: 45px;
+ text-transform: uppercase;
+ color: #000000;
+ height: 52.18px;
+}
+.delisious-menu__title p{
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 16.7734px;
+ color: #000000;
+ max-width: 526.5px;
+}
+.delisious-menu__items {
+ display: flex;
+ justify-content: center;
+}
+.delisious-menu__items {
+ list-style: none;
+ 
+}
+
+.delisious-menu__items li{
+ border-right: 0.931856px solid rgba(51, 51, 51, 0.2);
+}
+.delisious-menu__items li:last-child {
+ border: none;
+}
+.delisious-menu__items a{
+ font-family: 'Open Sans', sans-serif;
+ color: #333333;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 11.1823px;
+ line-height: 17px;
+ text-decoration: none;
+ display: flex;
+justify-content: center;
+ align-items: center;
+ text-align: center;
+ width: 111.82px;
+ height: 46.59px;
+}
+
+
+.delisious-menu__pricelist {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 30px 76.41px;
+}
+.delisious-menu__pricelist-item {
+ width: 350px;
+height: 61.5px;
+margin: 0 20px;
+}
+
+.delisious-menu__pricelist-item h2 {
+ font-family: 'Banny Round';
+ font-size: 16.7734px;
+ line-height: 17px;
+ color: #333333;
+margin: 0;
+}
+.delisious-menu__pricelist-item a{
+ padding-right: 10px;
+ text-decoration: none;
+ color: #333333;
+}
+.delisious-menu__pricelist-item p{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 11.1823px;
+color:rgba(51, 51, 51, 0.5);
+margin: 0;
+}
+.private-events{
+ height: 629px;
+ background: url(../img/private-event/private-bg.png);
+ margin-bottom: 30px;
+
+}
+.private-events h3{
+ text-align: center;
+ font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 11.1823px;
+line-height: 13px;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 30px;
+}
+.private-events__container {
+ display: flex;
+}
+
+.private-events__container-left {
+ flex: 0 0 50%;
+ margin-left: 80px;
+ position: relative;
+}
+.private-events__container-left-img {
+ max-width: 442px;
+ height: 442.63px;
+ 
+}
+.private-events__container-left-frame {
+ position: absolute;
+width: 210.6px;
+height: 210.6px;
+top: 50px;
+left: -150px;
+}
+.private-events__container-left-text{
+ position: absolute;
+ bottom:138px;
+ left:232px;
+ height: 74.55px;
+ width: 444px;
+background:black;
+margin: 0;
+font-family: 'Banny Round';
+font-size: 22.3645px;
+line-height: 11px;
+display: flex;
+align-items: center;
+text-indent: 18.6371px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+transform: rotate(90deg);
+}
+.private-events__container-right {
+ flex: 0 0 50%;
+ margin-right: 190px;
+ position: relative;
+}
+.private-events__container-right-img{
+ max-width: 442px;
+ height: 442.63px;
+ margin-left: -20px;
+}
+.private-events__container-right-frame {
+ position: absolute;
+width: 210.6px;
+height: 210.6px;
+top: 50px;
+left: 250px;
+}
+.private-events__container-right-text{
+ position: absolute;
+ bottom:138px;
+right:390px;
+
+ height: 74.55px;
+width: 443px;
+background:black;
+margin: 0;
+font-family: 'Banny Round';
+font-size: 22.3645px;
+line-height: 11px;
+display: flex;
+align-items: center;
+text-indent: 18.6371px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+transform: rotate(-90deg);
+}
